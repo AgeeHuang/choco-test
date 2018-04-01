@@ -1,0 +1,49 @@
+.billboard h2 {
+  font-size: 30px;
+  color: #fff;
+  margin: 15px 0;
+  border-bottom: 1px solid;
+}
+
+.search-field {
+  width: 70%;
+  max-width: 500px;
+  margin: 40px auto 20px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  box-shadow: 1px 1px 0 #049fc3,
+    2px 2px 0 #049fc3,
+    3px 3px 0 #049fc3,
+    4px 4px 0 #049fc3,
+    5px 5px 0 #049fc3,
+    6px 6px 0 #049fc3,
+    7px 7px 0 #049fc3;
+  input, button {
+    outline: none;
+    font-size: 16px;
+  }
+  input[type=search] {
+    flex: 1;
+    height: 60px;
+    border: 7px solid #00bbe7;
+    border-right: 0;
+    padding: 5px 10px;
+  }
+  button {
+    border: 0;
+    font-size: 25px;
+    padding: 0 15px;
+    background: #00bbe7;
+    color: #fefefe;
+    cursor: pointer;
+    transition: .1s;
+    &:hover {
+      color: #002856;
+    }
+    &.disabled {
+      color: #777;
+      cursor: not-allowed;
+    }
+  }
+}
