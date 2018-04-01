@@ -16,7 +16,7 @@ cd choco-test
 npm install
 ```
 
-### Server side
+## Server side
 - .env
     -	PORT: server-side Port.
     -	MONGO_URI: Connecting Database(I insert drama-list on mLab.)
@@ -30,7 +30,7 @@ npm run dev-server
     -	Send GET request: http://localhost:3001/api/list `get all drama`
     -	Send GET request: http://localhost:3001/api/list?name={keyword} `get all drama which name is match keyword `.
 
-### Client
+## Client side
 - run dev client
 ```bash
 npm run dev-client
