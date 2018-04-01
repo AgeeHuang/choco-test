@@ -12,7 +12,7 @@ git clone https://github.com/AgeeHuang/choco-test.git
 
 ### After clone
 ```bash
-cd code-test
+cd choco-test
 npm install
 ```
 
